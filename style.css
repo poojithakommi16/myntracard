@@ -1,0 +1,81 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+ *{
+   padding:0;
+   margin:0;
+   font-family: "Afacad Flux", sans-serif;
+ }
+ .cardcontainer{
+   height:460px;
+   width:240px;
+   margin:20px 0px 0px 20px;
+   display:flex;
+   border-radius:7px;
+   box-shadow:6px 6px 6px 0 gray;
+   overflow:hidden;
+ }
+ .card{
+   height:100%;
+   width:100%;
+   position:relative;
+ }
+ .image{
+   width:100%;
+   background-size: cover;
+   height:90%;
+   position:relative;
+   }
+.new{
+      position:absolute;
+      top:20px;
+      background-color:rgba(238, 130, 238, 0.405);
+      color:black;
+      border-radius:0px 5px 5px 0px;
+      padding:0.2rem;
+      letter-spacing:0.2rem;
+}
+.fa-star{
+   font-size:12px;
+   color:aqua;
+}
+.rating{
+      position:absolute;
+      bottom:150px;
+      left:7px;
+      background-color: rgba(255, 255, 255, 0.604);
+      color:black;
+      padding:0.2rem;
+}
+ .content{
+   padding:9px;
+   margin-left:3%;
+   font-weight:bold;
+ }
+ .title{
+   color:black;
+   font-size:24px;
+   margin-bottom:4px;
+   font-weight:bold;
+ }
+ .name{
+   color:gray;
+   font-size:19px;
+   margin-bottom:7px;
+   font-weight:bold;
+ }
+ .price{
+   color:black;
+   font-size:17px;
+ }
+ .originalprice{
+   color:gray;
+   font-size:15px;
+   text-decoration:line-through;
+ }
+ .discount{
+   color:orange;
+   font-size:14px;
+ }
+ .cardcontainer:hover{
+   transform:scale(0.9);
+ }
